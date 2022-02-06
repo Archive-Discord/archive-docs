@@ -31,6 +31,46 @@
         width: auto !important;
       }
     </style>
+    <script>
+      (function() {
+        var w = window;
+        if (w.ChannelIO) {
+          return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+        }
+        var ch = function() {
+          ch.c(arguments);
+        };
+        ch.q = [];
+        ch.c = function(args) {
+          ch.q.push(args);
+        };
+        w.ChannelIO = ch;
+        function l() {
+          if (w.ChannelIOInitialized) {
+            return;
+          }
+          w.ChannelIOInitialized = true;
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+          s.charset = 'UTF-8';
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+        if (document.readyState === 'complete') {
+          l();
+        } else if (window.attachEvent) {
+          window.attachEvent('onload', l);
+        } else {
+          window.addEventListener('DOMContentLoaded', l, false);
+          window.addEventListener('load', l, false);
+        }
+      })();
+      ChannelIO('boot', {
+        "pluginKey": "ef6b4a36-5876-4143-a2d3-bc8defa9fff7"
+      });
+    </script>
   </head>
   <body>
     <div id="app">로딩중 ...</div>
@@ -50,67 +90,10 @@
         loadSidebar: true,
         maxLevel: 4,
         subMaxLevel: 2,
-        matomo: {
-          host: '//matomo.thunderwave.de',
-          id: 6,
-        },
         name: '아카이브',
         search: {
           paths: 'auto',
           placeholder: '검색'
-        },
-        vueComponents: {
-          'button-counter': {
-            template:
-              '<button @click="count += 1">You clicked me {{ count }} times</button>',
-            data: function () {
-              return {
-                count: 0,
-              };
-            },
-          },
-        },
-        vueGlobalOptions: {
-          data: function () {
-            return {
-              count: 0,
-              message: 'Hello, World!',
-              // Fake API response
-              images: [
-                { title: 'Image 1', url: 'https://picsum.photos/150?random=1' },
-                { title: 'Image 2', url: 'https://picsum.photos/150?random=2' },
-                { title: 'Image 3', url: 'https://picsum.photos/150?random=3' },
-              ],
-            };
-          },
-          computed: {
-            timeOfDay: function () {
-              const date = new Date();
-              const hours = date.getHours();
-
-              if (hours < 12) {
-                return 'morning';
-              } else if (hours < 18) {
-                return 'afternoon';
-              } else {
-                return 'evening';
-              }
-            },
-          },
-          methods: {
-            hello: function () {
-              alert(this.message);
-            },
-          },
-        },
-        vueMounts: {
-          '#counter': {
-            data: function () {
-              return {
-                count: 0,
-              };
-            },
-          },
         },
         plugins: [
           function(hook, vm) {
