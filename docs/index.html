@@ -19,6 +19,8 @@
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
       title="vue"
     />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2701426579223876"
+     crossorigin="anonymous"></script>
     <style>
       nav.app-nav li ul {
         min-width: 100px;
@@ -34,6 +36,9 @@
   <body>
     <div id="app">로딩중 ...</div>
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     <script>
       // Set html "lang" attribute based on URL
       var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
@@ -111,6 +116,26 @@
             },
           },
         },
+        plugins: [
+          function(hook, vm) {
+              hook.afterEach(function(html) {
+                if (vm.route.path === '/') {
+                  return html;
+                }
+                return (
+                  html +
+                  `<br/> 
+                  <ins class="adsbygoogle"
+                      style="display:block"
+                      data-ad-client="ca-pub-2701426579223876"
+                      data-ad-slot="8854969692"
+                      data-ad-format="auto"
+                      data-full-width-responsive="true">
+                  </ins>`
+                );
+              });
+          },
+        ],
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
