@@ -136,12 +136,6 @@
             }
             hook.beforeEach(appendScript);
             hook.beforeEach(function(content){
-                return adStr('header-ad', 'ca-pub-2701426579223876', '8854969692') + "\n\n" + content
-            });
-            hook.doneEach(function() {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            });
-            hook.beforeEach(function(content){
                 return content + "\n\n" + adStr('footer-ad', 'ca-pub-2701426579223876', '3068290548') 
             });
             hook.doneEach(function() {
