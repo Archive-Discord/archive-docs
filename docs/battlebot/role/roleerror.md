@@ -2,4 +2,4 @@
 
 - 해당 오류는 봇의 권한 부족 시 생기는 현상으로 봇을 초대해 주시거나 아래 사진과 같이 봇의 역할을 해당 지급하실 역할보다 위로 옮겨주세요
 
-![](../../_images/battlebotrole.png)
+![](../../_images/battlebot/roleerror/battlebotrole.png)
