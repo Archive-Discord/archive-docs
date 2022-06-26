@@ -7,7 +7,7 @@
                 .searchArea(class="w-4/6")
                     search
                 .iconArea
-                    a(href="https://github.com/archive-discord/archvie-docs")
+                    a(href="https://github.com/archive-discord/archive-docs")
                         i.fab.fa-github
         
         .h-16
