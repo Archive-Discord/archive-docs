@@ -1,5 +1,5 @@
 <template lang="pug">
-    div
+    div.h-max
         .title.my-10.text-center
             h1.text-3xl.font-bold {{ pageSlug.title }}
             h2.text-xl.font-medium.text-gray-700.mt-2 {{ pageSlug.description }}
@@ -17,7 +17,7 @@
         nuxt-content.prose.max-w-none(class="dark:prose-dark lg:px-8" :document="pageSlug")
 
         hr.my-10
-        a.flex.items-center.mb-10.text-blue-500(:href="`https://github.com/Stella-IT/docs/blob/master/content${this.pageSlug.path}.md`" target="_blank")
+        a.flex.items-center.mb-10.text-blue-500(:href="`https://github.com/archive-discord/docs/blob/master/content${this.pageSlug.path}.md`" target="_blank")
             i.fab.fa-github.text-gray-600.text-xl.mr-3
             p GitHub에서 수정하기
 </template>
@@ -51,7 +51,7 @@ export default {
     },
     methods: {
         async getContributors() {
-            const {data} = await this.$axios.get(`https://api.github.com/repos/Stella-IT/docs/commits?path=content${this.pageSlug.path}.md`)
+            const {data} = await this.$axios.get(`https://api.github.com/repos/archive-discord/docs/commits?path=content${this.pageSlug.path}.md`)
             let duplicate = []
             for (const item of data) {
                 if (!duplicate.includes(item.author.login)) {

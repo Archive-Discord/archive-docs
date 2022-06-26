@@ -15,8 +15,8 @@ export default {
         var result = {
             page: null,
             pageSlug: null,
-            title: "Stella IT Docs",
-            description: "Stella IT Docs에서 다양한 정보들을 확인해보세요."
+            title: "Archive Docs",
+            description: "Archive Docs에서 다양한 정보들을 확인해보세요."
         }
 
         if(!pathSlug || pathSlug == "") {

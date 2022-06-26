@@ -1,11 +1,11 @@
 {
-  "title": "Stella IT Docs",
-  "url": "https://docs.stella-it.com",
+  "title": "Archive Docs",
+  "url": "https://docs.archiver.me",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
-  "github": "Stella-IT/docs",
+  "github": "archive-discord/docs",
   "twitter": "",
   "defaultDir": "",
   "defaultBranch": "master"

@@ -1,6 +1,6 @@
 ---
-title: Stella IT Docs
-description: Stella IT Docs에 관련해 자주 묻는 질문들을 담았습니다.
+title: Archive Docs
+description: Archive Docs에 관련해 자주 묻는 질문들을 담았습니다.
 category: FAQ
 ---
 

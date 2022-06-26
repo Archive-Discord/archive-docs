@@ -8,11 +8,11 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - Stella IT Docs',
+    titleTemplate: '%s - Archive Docs',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' },
-      { hid: 'description', name: 'description', content: 'Stella IT의 공식 문서입니다.' }
+      { hid: 'description', name: 'description', content: '아카이브의 공식 문서입니다.' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fontawesome.appie.dev/css/all.min.css' },
@@ -101,9 +101,9 @@ export default {
       source: 'icon.png',
     },
     manifest: {
-      name: 'Stella IT Documents',
+      name: 'Archive Documents',
       short_name: "Docs",
-      description: 'Stella IT의 공식 문서를 지금 확인해보세요.',
+      description: 'Archive 의 공식 문서를 지금 확인해보세요.',
       lang: 'ko',
       useWebmanifestExtension: false
     }
