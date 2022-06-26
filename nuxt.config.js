@@ -39,6 +39,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
   ],
 
   tailwindcss: {
@@ -70,6 +71,19 @@ export default {
 
       document.to = `${_dir}/${_slug}`
       document.category = _category
+    }
+  },
+
+  googleAnalytics: {
+    id: 'G-RFPEC5GRBW'
+  },
+
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: 'G-RFPEC5GRBW',
+      debug: {
+        sendHitTask: true
+      }
     }
   },
 

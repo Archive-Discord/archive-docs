@@ -21,5 +21,8 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.52.3",
     "theme-colors": "^0.0.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0"
   }
 }
