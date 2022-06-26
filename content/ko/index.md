@@ -9,7 +9,7 @@ category: ''
 <h1 align="center">Archive Docs에 오신것을 환영합니다.</h1>  
 
 Archive Docs는 누구나 기여 하고 fork 할 수 있는 GitHub 기반의 공개 문서입니다.  
-누구나 [Archive Docs GitHub Repository](https://github.com/archive-discord/docs)에 Pull Request를 요청하여 기여 하실 수 있습니다!  
+누구나 [Archive Docs GitHub Repository](https://github.com/archive-discord/archvie-docs)에 Pull Request를 요청하여 기여 하실 수 있습니다!  
 </center>
 
 ## 라이선스

@@ -1,11 +1,11 @@
 {
   "title": "Archive Docs",
-  "url": "https://docs.archiver.me",
+  "url": "https://help.archiver.me",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
-  "github": "archive-discord/docs",
+  "github": "archive-discord/archvie-docs",
   "twitter": "",
   "defaultDir": "",
   "defaultBranch": "master"
