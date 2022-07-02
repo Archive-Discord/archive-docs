@@ -18,3 +18,4 @@ category: Tutorials/Battlebot
 6. 캡챠를 풀어주세요 ( 빨간색 네모칸 클릭 )
 ![image](https://media.discordapp.net/attachments/992657088780181534/992664568113397780/how_to_invite4.png?width=291&height=503)
 7. 초대가 완료되었습니다.
+
