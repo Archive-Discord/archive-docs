@@ -1,9 +1,9 @@
 <template>
-  <div class="adsense-box pb-4">
-    <ins
-      class="adsbygoogle"
-    ></ins>
-  </div>
+   <div class='py-5 px-2'>
+		<div class="z-0 mx-auto w-full text-center text-white adsense-box">
+				<adsbygoogle class="ads" slot="8854969692"/>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -24,3 +24,15 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.adsense-box {
+  height: 90px;
+}
+
+.ads {
+  display: inline-block;
+  width: 100%;
+  height: 90px;
+}
+</style>
