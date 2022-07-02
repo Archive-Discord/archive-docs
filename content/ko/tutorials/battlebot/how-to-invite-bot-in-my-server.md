@@ -15,6 +15,6 @@ category: Tutorials/Battlebot
 ![image](https://media.discordapp.net/attachments/992657088780181534/992657954492915812/how_to_invite2.png?width=400&height=701)
 5. 승인 버튼을 눌러주세요.
 ![image](https://media.discordapp.net/attachments/992657088780181534/992658674449403914/how_to_invite3.png?width=398&height=701) 
-6. ![image](https://cdn.discordapp.com/attachments/992657088780181534/992659513599598592/how_to_invite4.png)
-캡챠를 풀어주세요 ( 빨간색 네모칸 클릭 )
+6. 캡챠를 풀어주세요 ( 빨간색 네모칸 클릭 )
+![image](https://cdn.discordapp.com/attachments/992657088780181534/992659513599598592/how_to_invite4.png)
 7. 초대가 완료되었습니다.
