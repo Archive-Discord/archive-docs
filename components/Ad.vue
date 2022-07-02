@@ -1,7 +1,7 @@
 <template>
    <div class='py-5 px-2'>
 		<div class="z-0 mx-auto w-full text-center text-white adsense-box">
-				<adsbygoogle class="ads" slot="8854969692"/>
+				<adsbygoogle class="ads" ad-slot="8854969692"/>
 		</div>
 	</div>
 </template>
