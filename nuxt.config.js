@@ -55,8 +55,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/dayjs',
-    '@nuxt/content',
-    '@nuxtjs/google-adsense'
+    '@nuxt/content'
   ],
   
   generate: {
