@@ -19,7 +19,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { src: "https://polyfill.appie.dev/polyfill.min.js?features=default%2CJSON%2CNumber.parseInt%2CNumber.parseFloat%2CNumber.isNaN%2CNumber.isInteger%2Ces2019%2Ces2018%2Ces2017%2Ces2016%2Ces2015%2Ces7%2Ces6%2Ces5%2CArray.isArray%2CArray.prototype.forEach%2CArray.prototype.indexOf%2CArray.prototype.sort%2CArray.prototype.map" }
+      { src: "https://polyfill.appie.dev/polyfill.min.js?features=default%2CJSON%2CNumber.parseInt%2CNumber.parseFloat%2CNumber.isNaN%2CNumber.isInteger%2Ces2019%2Ces2018%2Ces2017%2Ces2016%2Ces2015%2Ces7%2Ces6%2Ces5%2CArray.isArray%2CArray.prototype.forEach%2CArray.prototype.indexOf%2CArray.prototype.sort%2CArray.prototype.map" },
+      { defer: true, hid: 'adsense', src: '/adsense.js' }
     ]
   },
 
@@ -79,11 +80,6 @@ export default {
   googleAnalytics: {
     id: 'G-RFPEC5GRBW'
   },
-  
-  'google-adsense': {
-    onPageLoad: false,
-    pageLevelAds: false,
-  },
 
   publicRuntimeConfig: {
     googleAnalytics: {
@@ -91,11 +87,7 @@ export default {
       debug: {
         sendHitTask: true
       }
-    },
-    'google-adsense': {
-      id: 'ca-pub-2701426579223876',
-      test: false,
-    },
+    }
   },
 
   dayjs: {

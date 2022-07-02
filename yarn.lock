@@ -1703,13 +1703,6 @@
     consola "^2.10.1"
     dayjs "^1.10.4"
 
-"@nuxtjs/google-adsense@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/google-adsense/-/google-adsense-2.0.0.tgz#6bc917640b9f80e97323a84df4be919b1b191fbe"
-  integrity sha512-x6y4PTOooTXmpUWOZFilXHTzK+3q/X+cNofbcAVHqq+W9F9Y92DyCsEM7HRSl4pW+G0saUO9qSx8O9gmyDVi5Q==
-  dependencies:
-    pathe "^0.2.0"
-
 "@nuxtjs/google-analytics@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.4.0.tgz#3bb9f398a05cc23340d1f423f8d8653dc4114f46"

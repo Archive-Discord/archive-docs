@@ -1,16 +1,16 @@
 <template>
-   <div class='py-5 px-2'>
-		<div class="z-0 mx-auto w-full text-center text-white adsense-box">
-				<adsbygoogle class="ads" ad-slot="8854969692"/>
-		</div>
-	</div>
+  <div class="adsense-box py-12">
+    <ins
+      class="adsbygoogle"
+    ></ins>
+  </div>
 </template>
 
 <script>
 import { onMounted } from '@nuxtjs/composition-api'
 
 export default {
-  name: 'Ad',
+  name: 'Ads',
   setup(_, { root }) {
     onMounted(() => {
       root.$nextTick(() => {
@@ -25,14 +25,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .adsense-box {
   height: 90px;
-}
-
-.ads {
-  display: inline-block;
   width: 100%;
-  height: 90px;
 }
 </style>
