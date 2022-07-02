@@ -12,9 +12,9 @@ category: Tutorials/Battlebot
 2. 보이시는 화면에서 좌측 상단의 대시보드를 클릭합니다.
 3. 초대를 원하시는 서버 하단의 '초대하기' 텍스트를 눌러주세요.
 4. 계속하기 버튼을 클릭해주세요.
-![image](https://cdn.discordapp.com/attachments/992657088780181534/992664568113397780/how_to_invite4.png)
+![image](https://media.discordapp.net/attachments/992657088780181534/992664568578981948/how_to_invite2.png?width=291&height=503)
 5. 승인 버튼을 눌러주세요.
-![image](https://cdn.discordapp.com/attachments/992657088780181534/992664568360865803/how_to_invite3.png) 
+![image](https://media.discordapp.net/attachments/992657088780181534/992664568360865803/how_to_invite3.png?width=291&height=503) 
 6. 캡챠를 풀어주세요 ( 빨간색 네모칸 클릭 )
-![image](https://cdn.discordapp.com/attachments/992657088780181534/992664568578981948/how_to_invite2.png)
+![image](https://media.discordapp.net/attachments/992657088780181534/992664568113397780/how_to_invite4.png?width=291&height=503)
 7. 초대가 완료되었습니다.
