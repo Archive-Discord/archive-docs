@@ -10,4 +10,4 @@ category: Tutorials/Battlebot
 ## 세팅 방법
 1. https://battlebot.kr 에 접속합니다.
 2. 보이시는 화면에서 좌측 상단의 대시보드를 클릭합니다.
-3. 세팅을 원하시는 서버 아이콘 하단에 있는 텍스트가 초대하기일 경우 [여기를 클릭하여](#이동할-위치) 봇을 초대하는 방법을 확인하실 수 있습니다.
+3. 세팅을 원하시는 서버 아이콘 하단에 있는 텍스트가 초대하기일 경우 [여기를 클릭하여](https://help.archiver.me/tutorials/battlebot/how-to-invite-bot-in-my-server) 봇을 초대하는 방법을 확인하실 수 있습니다.
