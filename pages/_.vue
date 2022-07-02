@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { onAnalyticsReady } from 'vue-analytics';
 export default {
     async asyncData ({ $content, store, app, params, error }) {
         var pathSlug = params.pathMatch
@@ -51,6 +52,15 @@ export default {
                 { hid: 'twitter:description', name: 'twitter:description', content: this.description }
             ]
         }
+    },
+    mounted() {
+        onAnalyticsReady().then(() => {
+        const hasConsent = () => {}; // your logic for consent
+        if (hasConsent) {
+            this.$ga.enable(); // activate module
+            this.$ga.page(this.$route.path); // track current route
+        }
+      });
     },
 }
 </script>
