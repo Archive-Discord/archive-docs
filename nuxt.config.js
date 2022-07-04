@@ -12,6 +12,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' },
+      { name: 'naver-site-verification', content: 'cb6c0591270b1f2f703cc09f13790b60ae7858d0' },
       { hid: 'description', name: 'description', content: '아카이브의 공식 문서입니다.' }
     ],
     link: [
