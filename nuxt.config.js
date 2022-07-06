@@ -103,7 +103,8 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    
+    credentials: true,
+    withCredentials : true,
   },
 
   // loading: '~/components/loading.vue',

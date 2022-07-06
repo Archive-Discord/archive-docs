@@ -59,6 +59,8 @@
 </template>
 
 <script>
+import Cookie from 'js-cookie'
+
 export default {
     name: "index-page",
     data () {
