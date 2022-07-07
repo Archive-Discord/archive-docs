@@ -22,7 +22,8 @@ export default {
     script: [
       { src: "https://polyfill.appie.dev/polyfill.min.js?features=default%2CJSON%2CNumber.parseInt%2CNumber.parseFloat%2CNumber.isNaN%2CNumber.isInteger%2Ces2019%2Ces2018%2Ces2017%2Ces2016%2Ces2015%2Ces7%2Ces6%2Ces5%2CArray.isArray%2CArray.prototype.forEach%2CArray.prototype.indexOf%2CArray.prototype.sort%2CArray.prototype.map" },
       { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', 'data-ad-client': "ca-pub-2701426579223876", async: true },
-      { src: "https://www.googletagmanager.com/gtag/js?id=G-RFPEC5GRBW", async: true}
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-RFPEC5GRBW", async: true},
+      { src: "/ga.js"}
     ]
   },
 
