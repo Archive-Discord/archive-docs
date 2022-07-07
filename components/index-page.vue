@@ -2,7 +2,7 @@
     div
         .title.my-10.text-center
             h1.text-3xl.font-bold(v-if="!user") Archive Documents
-            h1.text-3xl.font-bold(v-else) {{user.username}}님 Archive Documents에 오신걸 환영합니다!
+            h1.text-3xl.font-bold(v-else) {{user.user.username}}님 Archive Documents에 오신걸 환영합니다!
             h2.text-xl.font-medium.font-gray-800.mt-3 Archive 관련 콘텐츠 들의 이용 가이드를 탐색하고, 문제를 해결하세요.
         hr
 
@@ -67,7 +67,7 @@ export default {
         }
     },
     mounted () {
-        this.getUser()
+        this.getUser().then(() => console.log(this.user))
     },
     methods: {
         async getUser() {
@@ -76,7 +76,7 @@ export default {
                     Authorization: "Bearer " + this.$cookies.get('Authorization')
                 }
             })
-            this.user = data
+            this.user = data.data
         }
     },
 }
