@@ -57,7 +57,8 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/dayjs',
-    '@nuxt/content'
+    '@nuxt/content',
+    'cookie-universal-nuxt'
   ],
   
   generate: {

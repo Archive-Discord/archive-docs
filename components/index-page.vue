@@ -59,8 +59,6 @@
 </template>
 
 <script>
-import Cookie from 'js-cookie'
-
 export default {
     name: "index-page",
     data () {
@@ -75,7 +73,7 @@ export default {
         async getUser() {
             const { data } = await this.$axios.get(`https://api.archiver.me/users/@me`, {
                 headers: {
-                    Authorization: Cookies.get('Authorization')
+                    Authorization: this.$cookies.get('Authorization')
                 }
             })
             this.user = data
