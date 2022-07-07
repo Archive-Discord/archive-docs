@@ -73,7 +73,7 @@ export default {
         async getUser() {
             const { data } = await this.$axios.get(`https://api.archiver.me/users/@me`, {
                 headers: {
-                    Authorization: this.$cookies.get('Authorization')
+                    Authorization: "Bearer " + this.$cookies.get('Authorization')
                 }
             })
             this.user = data
