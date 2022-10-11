@@ -6,7 +6,7 @@ category: Tutorials/Battlebot
 
 ## 봇 추가 방법
 ## 바로 초대하기
-[여기를 봇을 초대할 수 있습니다.](https://discord.com/oauth2/authorize?client_id=928523914890608671&permissions=8&scope=bot%20applications.commands "봇 초대하기")
+[여기를 눌러 봇을 초대할 수 있습니다.](https://discord.com/oauth2/authorize?client_id=928523914890608671&permissions=8&scope=bot%20applications.commands "봇 초대하기")
 ## 대시보드에서 초대하기
 1. https://battlebot.kr 에 접속합니다.
 2. 보이시는 화면에서 좌측 상단의 대시보드를 클릭합니다.
