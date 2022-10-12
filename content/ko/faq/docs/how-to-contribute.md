@@ -10,4 +10,4 @@ category: FAQ/Docs
 * [GitHub 계정](https://github.com)
 
 ## 보상
-추후 공개예정
+추후 등록 예정
