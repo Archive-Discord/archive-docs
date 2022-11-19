@@ -15,7 +15,6 @@
         hr.mb-5
 
         nuxt-content.prose.max-w-none(class="dark:prose-dark lg:px-8" :document="pageSlug")
-        Adsense
         hr.my-10
         a.flex.items-center.mb-10.text-blue-500(:href="`https://github.com/archive-discord/archive-docs/blob/master/content${this.pageSlug.path}.md`" target="_blank")
             i.fab.fa-github.text-gray-600.text-xl.mr-3
@@ -23,7 +22,6 @@
 </template>
 
 <script>
-import Adsense from "./Ad.vue"
 export default {
     head () {
         return {
@@ -61,9 +59,6 @@ export default {
                 }
             }
         }
-    },
-    components: {
-        Adsense
     }
 }
 </script>

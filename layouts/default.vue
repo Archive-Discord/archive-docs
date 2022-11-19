@@ -14,13 +14,16 @@
         
         .max-w-7xl.mx-auto.mb-5.px-3(class="md:px-6 lg:px-10 xl:px-16")
             nuxt
-
+            Adsense
             footer.border-t.w-full.mx-auto.flex.items-center.py-5.justify-center.bottom-0.max-w-7xl.px-3(class="md:px-6 lg:px-10 xl:px-16") Designed by @BawAppie
 </template>
 
 <script>
+import Adsense from "../components/Ad"
 export default {
-    
+    components: {
+        Adsense
+    }
 }
 </script>
 
