@@ -11,17 +11,19 @@
 </template>
 
 <script>
+import { onMounted } from "@nuxtjs/composition-api";
 export default {
-  mounted() {
-    try {
-      var isAdsenseNotLoaded =
-        !adsbygoogle || typeof adsbygoogle.loaded === "undefined";
-      if (isAdsenseNotLoaded) {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      }
-    } catch (e) {
-      console.log(e, "Failed Adsense");
-    }
+  name: "Ad",
+  setup(_, { root }) {
+    onMounted(() => {
+      root.$nextTick(() => {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (error) {
+          console.error("Adsbygoogle error is ", error);
+        }
+      });
+    });
   },
 };
 </script>

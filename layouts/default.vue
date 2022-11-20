@@ -14,7 +14,7 @@
         
         .max-w-7xl.mx-auto.mb-5.px-3(class="md:px-6 lg:px-10 xl:px-16")
             nuxt
-            Adsense
+            Adsense.my-3
             footer.border-t.w-full.mx-auto.flex.items-center.py-5.justify-center.bottom-0.max-w-7xl.px-3(class="md:px-6 lg:px-10 xl:px-16") Designed by @BawAppie
 </template>
 
