@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  onMounted () {
+  mounted() {
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (error) {
